@@ -4,9 +4,9 @@ import { EntriesHash, sync } from './calendar';
 export function run() {
   const scriptProperties = PropertiesService.getScriptProperties();
   
-  scriptProperties.setProperty('CALENDAR_ID', 'INSERT CALENDAR ID HERE');
-  scriptProperties.setProperty('TOGGL_API_TOKEN', 'INSERT TOGGL API TOKEN HERE');
- 
+  scriptProperties.setProperty('CALENDAR_ID', '6u82kqjj05ditpardgqbqmetf4@group.calendar.google.com');
+  scriptProperties.setProperty('TOGGL_API_TOKEN', '91fd9d48aef65cb47bd7a372ac24b4e1');
+  
   const togglApiToken = scriptProperties.getProperty('TOGGL_API_TOKEN');
   const calendarId = scriptProperties.getProperty('CALENDAR_ID');
 
